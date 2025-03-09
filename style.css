@@ -1,0 +1,35 @@
+:root {
+    --clr-dark: #6d98f3;
+    --clr-light: rgba(8, 82, 57, 0.63);
+    --clr-accent: #d46871;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 25px;
+    line-height: 2.5;
+    word-spacing: 1.4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--clrdark);
+    background-color: var(--clr-light);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: 25px solid var(--clr-dark);
+}
+
+.item {
+    padding: 0.5em;
+    background-color: #daa3cc;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid var(--clr-accent);   
+}
